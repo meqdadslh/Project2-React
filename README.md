@@ -3,7 +3,7 @@
 ## Project Links
 
 - [https://github.com/meqdadslh/Project2-React.git] ( github Link)
-- [https://jovial-kilby-09f49d.netlify.app/] ( netlify live link)
+- [https://project2-react.netlify.app/] ( netlify live link)
 
 ## Project Description
 
