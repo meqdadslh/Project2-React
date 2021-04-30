@@ -7,7 +7,7 @@
 
 ## Project Description
 
-This project is a an online library where you can search for any book by it's title, get a brief intro of the book and save it in your reading list. 
+This project is world map where you can search for any country by it's name, and get a brief profile of the country. 
 
 ## API
 
