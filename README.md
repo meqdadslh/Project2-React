@@ -24,7 +24,7 @@ Use this section to include info about the API you have chosen and a code snippe
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
 - [https://i.imgur.com/VkeQkyf.jpg] ( WireFrame )
-- [https://i.imgur.com/WfSMSq4.jpg] ( React Archeticter)
+- [https://i.imgur.com/WfSMSq4.jpg] ( React Archetectur )
 
 
 ### MVP/PostMVP - 5min
@@ -48,11 +48,11 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Component | Description | 
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
-| My Reading List | This will make the searched booked list data pull and include React Router| 
+| My Reading List | This will make the searched countries destination list data pull and include React Router| 
 | Header | This will render the header include the nav | 
 | Footer | This will render the header include the nav | 
-| Main | This will be the main page including components (search, contact form, list of some recommended books) | 
-| Search | This will be the search components where the user can search for the title of the books. pulling data from API | 
+| Main | This will be the main page including components (search, contact form, list of some recommended travel destination) | 
+| Search | This will be the search components where the user can search for the name of a country. pulling data from API | 
 | Contact Form | This will be a contact form in the lower part of the main page | 
 | Recommended Books | This will be a display of some recommended books| 
 
@@ -60,22 +60,21 @@ Based on the initial logic defined in the previous sections try and breakdown th
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
+| :---: | :---: |  :---: | :---: | :---: |
 
 | Reviewing the project | H | 3hrs | :---: | :---: |
 | Entering API | H | 2hrs | :---: | :---: |
 | Pulling Data from API| H | 1hrs | :---: | :---: |
 | Navbar | M | 1hrs | :---: | :---: |
-| Footer| M | 1hrs | :---: | :---: |
-| Creating Routers | H | 3hrs  :---: | :---: |
+| Footer | M | 1hrs | :---: | :---: |
+| Creating Routers | H | 3hrs | :---: | :---: |
 | Adding Contact Form | M | 1hrs | :---: | :---: |
 | Controled form | M | 2hrs | :---: | :---: |
-| Rendering| H | 3hrs | :---: | :---: |
+| Rendering | H | 3hrs | :---: | :---: |
 | Adding Css Style | H | 5hrs | :---: | :---: |
 | Working with Bootsrap | H | 3hrs | :---: | :---: |
 | Responsive Design | H | 3hrs | :---: | :---: |
 | Last Edits | H | 3hrs | :---: | :---: |
-
 | Total | H | 31hrs| :---: | :---: |
 
 ## Additional Libraries
