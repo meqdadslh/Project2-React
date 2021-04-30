@@ -7,7 +7,7 @@
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This project is a an online library where you can search for any book by it's title, get a brief intro of the book and save it in your reading list. 
 
 ## API
 
