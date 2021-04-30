@@ -62,19 +62,19 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 
-| Reviewing the project | H | 3hrs| :---: | :---: |
-| Entering API | H | 2hrs| :---: | :---: |
-| Pulling Data from API| H | 1hrs| :---: | :---: |
-| Navbar | M | 1hrs| :---: | :---: |
-| Footer| M | 1hrs| :---: | :---: |
-| Creating Routers | H | 3hrs| :---: | :---: |
-| Adding Contact Form | M | 1hrs| :---: | :---: |
-| Controled form | M | 2hrs| :---: | :---: |
-| Rendering| H | 3hrs| :---: | :---: |
-| Adding Css Style | H | 5hrs| :---: | :---: |
-| Working with Bootsrap | H | 3hrs| :---: | :---: |
-| Responsive Design | H | 3hrs| :---: | :---: |
-| Last Edits | H | 3hrs| :---: | :---: |
+| Reviewing the project | H | 3hrs | :---: | :---: |
+| Entering API | H | 2hrs | :---: | :---: |
+| Pulling Data from API| H | 1hrs | :---: | :---: |
+| Navbar | M | 1hrs | :---: | :---: |
+| Footer| M | 1hrs | :---: | :---: |
+| Creating Routers | H | 3hrs  :---: | :---: |
+| Adding Contact Form | M | 1hrs | :---: | :---: |
+| Controled form | M | 2hrs | :---: | :---: |
+| Rendering| H | 3hrs | :---: | :---: |
+| Adding Css Style | H | 5hrs | :---: | :---: |
+| Working with Bootsrap | H | 3hrs | :---: | :---: |
+| Responsive Design | H | 3hrs | :---: | :---: |
+| Last Edits | H | 3hrs | :---: | :---: |
 
 | Total | H | 31hrs| :---: | :---: |
 
