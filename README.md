@@ -23,8 +23,8 @@ Use this section to include info about the API you have chosen and a code snippe
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [add link to your wireframes]()
-- [add link to your react architecture]()
+- [https://i.imgur.com/VkeQkyf.jpg] ( WireFrame )
+- [https://i.imgur.com/WfSMSq4.jpg] ( React Archeticter)
 
 
 ### MVP/PostMVP - 5min
