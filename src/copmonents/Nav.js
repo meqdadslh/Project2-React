@@ -9,7 +9,7 @@ import * as ReactBootStrap from 'react-bootstrap';
         <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
           <ReactBootStrap.Nav className="mr-auto">
-            <ReactBootStrap.Nav.Link href="#my-reading-list">My Reading List</ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link href="#travel-destination">Travel Destinations</ReactBootStrap.Nav.Link>
             <ReactBootStrap.Nav.Link href="#about-me">About Meqdad</ReactBootStrap.Nav.Link>
           </ReactBootStrap.Nav>
         </ReactBootStrap.Navbar.Collapse>
