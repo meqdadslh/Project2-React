@@ -29,11 +29,13 @@ const Countries = () => {
                     <article key={numericCode}>
                         <div>
                         <img src={flag} alt={flag}/>
+                        <div className="description">
                         <h4>{name}</h4>
                         <h5>Capital: {capital}</h5>
                         <h5>Population: {population}</h5>
                         <h5>Region: {region}</h5>
-                     </div>
+                        </div>
+                        </div>
                     </article>
                 )
             })}
