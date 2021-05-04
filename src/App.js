@@ -10,8 +10,9 @@ function App() {
   return (
     <>
       <Nav/>
-      <Countries/>
       <h1>Thank you for visiting my page!</h1>
+      <Countries/>
+      
     
     </>
   );
