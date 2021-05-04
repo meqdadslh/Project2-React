@@ -8,11 +8,21 @@
     .grid{
     grid-template-columns: repeat(4, 1fr);
     }
-
+    .filter {
+        display: flex;
+        flex-direction: row;
+    }
+    .search-form {
+        width: 20%;
+    }
+    .select {
+        width: 20%;
+    }
 }
 @media screen and (min-width: 1440px) {
     .grid{
     grid-template-columns: repeat(5, 1fr);
     }
+
 
 }

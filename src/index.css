@@ -11,7 +11,24 @@ body{
   background-color:darkgray;
   color:white;
 }
-.grid {
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px 0;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.filter .search-form input{
+  padding: 10px;  
+  width: 100%;
+}
+.select {
+  width: 42%;
+  padding: 5px;
+}
+.grid { 
   display: grid;
   grid-template-columns: 1fr;
   gap:35px;
