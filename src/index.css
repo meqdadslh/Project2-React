@@ -11,6 +11,10 @@ body{
   background-color:darkgray;
   color:white;
 }
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
 .filter {
   display: flex;
   justify-content: space-between;
