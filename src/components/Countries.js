@@ -22,9 +22,9 @@ const Countries = () => {
     })
     return (
         <>
-            {countries.map((country) => {
+        <div className="grid">
+        {countries.map((country) => {
                 const { numericCode, name, capital, population, region, flag } = country
-
                 return (
                     <article key={numericCode}>
                         <div>
@@ -37,6 +37,8 @@ const Countries = () => {
                     </article>
                 )
             })}
+        </div>
+            
         </>
     )
 }
