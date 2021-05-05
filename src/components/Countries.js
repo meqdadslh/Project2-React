@@ -10,7 +10,7 @@ const Countries = () => {
     const [countries, setCountries] = useState ([])
 
     
-    const fetchCountryData = async () => {
+    const getCountries = async (name) => {
         const response = await fetch(url)
         const countries = await response.json()
         setCountries(countries)
@@ -18,8 +18,8 @@ const Countries = () => {
     }
 
         useEffect (() => {
-            fetchCountryData()
-    })
+            getCountries()
+    },[])
     return (
         <>
         <div className="grid">

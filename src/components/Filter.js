@@ -1,6 +1,11 @@
-import React from 'react'
+import React from 'react';
+// import react, {useState, useEffect} from 'react'; 
+
+// const [filteredCountries, setFilteredCountries] = useState([]);
 
 const Filter = () => {
+
+  
     return (
         <div className="filter">
             <form className="search-form">
