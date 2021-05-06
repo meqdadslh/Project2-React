@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Countries from './components/Countries';
 import Filter from './components/Filter'
 import './App.css';
+import Footer from './components/Footer';
 
 
 
@@ -20,9 +21,9 @@ function App() {
       <h1>Thank you for visiting my page! </h1>
       <Filter/>
       <Countries/>
-      
-    
+      <Footer/>
     </Router>
+  
   );
 }
 
