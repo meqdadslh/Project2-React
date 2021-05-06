@@ -46,17 +46,25 @@ h1 {
   /* margin-top: -10px; */
   
 }
-.image {
+/* .image {
   width: 345px;
   height: 180px;
 
-}
+} */
 img {
   max-width: 100%;
 }
 article img {
   height: 180px;
   width: 100%;
+}
+
+/* Form style */
+form {
+  width: 80%;
+  padding-top: 25px;
+  padding-left: 70px;
+  
 }
 
 

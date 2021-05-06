@@ -3,7 +3,7 @@ import React from 'react';
 
 // const [filteredCountries, setFilteredCountries] = useState([]);
 
-const Filter = () => {
+const Filter = (props) => {
 
   
     return (

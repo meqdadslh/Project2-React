@@ -6,6 +6,7 @@ import Countries from './components/Countries';
 import Filter from './components/Filter'
 import './App.css';
 import Footer from './components/Footer';
+import Form from './components/Form'; 
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <h1>Thank you for visiting my page! </h1>
       <Filter/>
       <Countries/>
+      <Form/>
       <Footer/>
     </Router>
   
