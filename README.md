@@ -15,7 +15,28 @@ Use this section to include info about the API you have chosen and a code snippe
 
 
 ```
-{data: {} }
+{
+    "name": "Afghanistan",
+    "topLevelDomain": [
+      ".af"
+    ],
+    "alpha2Code": "AF",
+    "alpha3Code": "AFG",
+    "callingCodes": [
+      "93"
+    ],
+    "capital": "Kabul",
+    "altSpellings": [
+      "AF",
+      "Afġānistān"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "population": 27657145,
+    "latlng": [
+      33.0,
+      65.0
+    ],
 ```
 
 
@@ -48,34 +69,34 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Component | Description | 
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
-| My Reading List | This will make the searched countries destination list data pull and include React Router| 
+| About me router | This will be a saperate router about me| 
 | Header | This will render the header include the nav | 
 | Footer | This will render the header include the nav | 
-| Main | This will be the main page including components (search, contact form, list of some recommended travel destination) | 
+| Main | This will be the main page including components (search, contact form, list of the countries with thier regions) | 
 | Search | This will be the search components where the user can search for the name of a country. pulling data from API | 
 | Contact Form | This will be a contact form in the lower part of the main page | 
-| Recommended Books | This will be a display of some recommended books| 
+
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
-| :---: | :---: |  :---: | :---: | :---: |
 
-| Reviewing the project | H | 3hrs | :---: | :---: |
-| Entering API | H | 2hrs | :---: | :---: |
-| Pulling Data from API| H | 1hrs | :---: | :---: |
-| Navbar | M | 1hrs | :---: | :---: |
-| Footer | M | 1hrs | :---: | :---: |
-| Creating Routers | H | 3hrs | :---: | :---: |
-| Adding Contact Form | M | 1hrs | :---: | :---: |
-| Controled form | M | 2hrs | :---: | :---: |
-| Rendering | H | 3hrs | :---: | :---: |
-| Adding Css Style | H | 5hrs | :---: | :---: |
-| Working with Bootsrap | H | 3hrs | :---: | :---: |
-| Responsive Design | H | 3hrs | :---: | :---: |
-| Last Edits | H | 3hrs | :---: | :---: |
-| Total | H | 31hrs| :---: | :---: |
+
+| Reviewing the project | H | 3hrs | 4hrs | 4hrs |
+| Entering API | H | 2hrs | 2hrs | 2hrs |
+| Pulling Data from API| H | 1hrs | 1.5hrs | 1.5hrs |
+| Navbar | M | 1hrs | 1hr | 1hr |
+| Footer | M | 1hrs | 1hr | 1hr |
+| Creating Routers | H | 3hrs | 3hrs | 3hrs |
+| Adding Contact Form | M | 1hrs | 1hr | 1hr |
+| Controled form | M | 2hrs | 2hrs | 2hrs |
+| Rendering | H | 3hrs | 3hrs | 3hrs |
+| Adding Css Style | H | 5hrs | 7hrs | 7hrs |
+| Working with Bootsrap | H | 3hrs | 2hrs | 2hrs |
+| Responsive Design | H | 3hrs | 2hrs | 2hrs |
+| Last Edits | H | 3hrs | 5hrs | 5hrs |
+| Total | H | 31hrs| 34.5hrs | 34.5hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
