@@ -1,5 +1,6 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
+import {Link} from 'react-router-dom';
 
 
 
@@ -14,7 +15,6 @@ const Countries = () => {
         const response = await fetch(url)
         const countries = await response.json()
         setCountries(countries)
-        console.log(countries)
     }
 
         useEffect (() => {
@@ -34,6 +34,7 @@ const Countries = () => {
                         <h5>Capital: {capital}</h5>
                         <h5>Population: {population}</h5>
                         <h5>Region: {region}</h5>
+                        <Link to ={`/${name}`}>More</Link>
                         </div>
                         </div>
                     </article>
