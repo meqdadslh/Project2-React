@@ -8,7 +8,6 @@
 
 body{
   padding: 20px; 
-  backgroundColor:red;
   color:white;
 }
 h1 {
@@ -43,8 +42,29 @@ h1 {
   background-color: grey;
   color: white;
   font-family: roboto;
-  /* margin-top: -10px; */
-  
+}
+
+/* styling buttons and links inside the description box */
+.functions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+/* "more" button style */
+.functions a {
+  color: white;
+  font-style: italic;
+  border: 1px solid lightgrey;
+  padding: 3px 8px;
+}
+/* "Remove" button style */
+
+button.remove {
+  color: white;
+  background-color: grey;
+  border: 1px solid lightgrey;
+  padding: 3px 8px;
 }
 /* .image {
   width: 345px;
