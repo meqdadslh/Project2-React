@@ -3,7 +3,7 @@ import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap
 
 const Example = (props) => {
   return (
-    <Form>
+    <Form className="contact">
       <FormGroup row>
         <Label for="exampleEmail" sm={2}>Email</Label>
         <Col sm={10}>
