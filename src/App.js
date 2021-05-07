@@ -33,8 +33,8 @@ const filterByRegion = async region => {
       <h1>Thank you for visiting my page! </h1>
       <Switch>
       <Route exact path="/">
-      <Filter/>
-      {/* <Filter filterByRegion={filterByRegion}/> */}
+      {/* <Filter/> */}
+      <Filter filterByRegion={filterByRegion}/>
       <Countries/>
       </Route>
       <Route path="/:name" children={<Details/>}></Route>

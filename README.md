@@ -60,6 +60,12 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### PostMVP EXAMPLE
 
 - Add localStorage or firebase for storage
+- Add more Routes
+- Creat saperate folders and add each components with it's css file
+- Add more css to the page.
+- Add a route with a component where the user could add countries in it
+- Fixing the display by region filter and the search component to display. 
+- Add another API with countries images if I could find any. 
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -88,16 +94,20 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Footer | M | 1hrs | 1hr | 1hr |
 | Creating Routers | H | 3hrs | 3hrs | 3hrs |
 | Adding Contact Form | M | 1hrs | 1hr | 1hr |
-| Controled form | M | 2hrs | 2hrs | 2hrs |
+| Controled form | M | 2hrs | 3hrs | 3hrs |
 | Rendering | H | 3hrs | 3hrs | 3hrs |
 | Adding Css Style | H | 5hrs | 7hrs | 7hrs |
 | Working with Bootsrap | H | 3hrs | 2hrs | 2hrs |
 | Responsive Design | H | 3hrs | 2hrs | 2hrs |
 | Last Edits | H | 3hrs | 5hrs | 5hrs |
-| Total | H | 31hrs| 34.5hrs | 34.5hrs |
+| Total | H | 31hrs| 35.5hrs | 35.5hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+ - ReactStrap : building the navbar 
+ - FontAwesome : Adding the backhome arrow and contact table
+ - Reactrouter: building routers. 
+ - 
 
 ## Code Snippet
 

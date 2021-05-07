@@ -28,7 +28,7 @@ const filterByRegion = async region => {
             <form className="search-form">
                 <input type="search" name="search" id="search" placeholder="Search for a country" onChange={(term) => searchCountry(term.target.value)}/>
             </form>
-            <select name="select" id="select" className="select" onChange={ val => filterByRegion(val.target.value)}>
+            <select name="select" id="select" className="select" onChange={ val => props.filterByRegion(val.target.value)}>
                 <option value="Filter by region"> Filter by region </option>
                 <option value="Americas"> America </option>
                 <option value="Asia"> Asia Pacific</option>
