@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
-// import react, {useState, useEffect} from 'react'; 
+import react, {useState, useEffect} from 'react'; 
 import Nav from './components/Nav';
 import Filter from './components/Filter';
 import Countries from './components/Countries';
@@ -18,6 +18,14 @@ import About from './components/About';
 
 function App() {
 
+  const [countries, setCountries] = useState ([])
+
+const filterByRegion = async region => {
+  if(region ==='') return
+  const res = await fetch (`https://restcountries.eu/rest/v2/region/${region}`)
+  const data = await res.json()
+  await setCountries(data)
+}
   
   return (
     <Router>
@@ -26,6 +34,7 @@ function App() {
       <Switch>
       <Route exact path="/">
       <Filter/>
+      {/* <Filter filterByRegion={filterByRegion}/> */}
       <Countries/>
       </Route>
       <Route path="/:name" children={<Details/>}></Route>
