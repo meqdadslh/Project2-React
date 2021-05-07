@@ -26,8 +26,8 @@ useEffect (() => {
         </Link>
         {/* Mapping over the details so we could receive the country data */}
            <div className="details">{
-               country.map((c) => {
-                   const{numericCode, flag,name, demonym, nativeName, capital, population, region, subregion} = c
+               country.map((country) => {
+                   const{numericCode, flag,name, demonym, nativeName, capital, population, region, subregion} = country
                    return (
                        <section key={numericCode}>
                            <div classname="flag">
